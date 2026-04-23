@@ -1,0 +1,110 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+/* Corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000; /* preto */
+  color: #fff; /* branco */
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid #444; /* cinza */
+}
+
+header h1 {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+header p {
+  color: #ccc; /* cinza claro */
+}
+
+/* Seção principal */
+main {
+  padding: 20px;
+}
+
+/* Lista de produtos */
+section {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Card do produto */
+.produto {
+  background-color: #111; /* preto mais suave */
+  border: 1px solid #333; /* cinza */
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+.produto:hover {
+  transform: scale(1.05);
+  border-color: #fff;
+}
+
+/* Imagem */
+.produto img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Título do produto */
+.produto h3 {
+  margin-bottom: 10px;
+}
+
+/* Descrição */
+.produto p {
+  color: #bbb; /* cinza */
+  margin-bottom: 10px;
+}
+
+/* Preço */
+.produto strong {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+/* Botão */
+button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 15px;
+  border-top: 1px solid #444;
+  margin-top: 20px;
+  color: #aaa;
+}
